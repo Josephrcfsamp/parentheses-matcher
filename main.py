@@ -12,3 +12,11 @@ def is_balanced(expression):
             stack.pop()
     
     return len(stack) == 0
+
+# Test examples
+# Exemplos de teste
+print(is_balanced("(()())"))    # True
+print(is_balanced("((()))"))    # True
+print(is_balanced("(()"))       # False
+print(is_balanced("())"))       # False
+print(is_balanced(""))          # True
