@@ -12,12 +12,20 @@ It's a classic algorithm problem used to evaluate logical thinking and stack usa
 
 ## 💡 Features
 
-- Input: string with parentheses (e.g. "(()())", "((()))", "(()")
-- Output: Boolean result (True or False)
-- Logic based on stack operations
-- Code commented in English and Portuguese
+- Input: string with parentheses (e.g. "(()())", "((()))", "(()").
+- Output: Boolean result (True or False).
+- Logic based on stack operations.
+- Code commented.
 
 ## 🛠️ How to Run
 
 ```bash
 python3 main.py
+```
+## Code Style
+
+- Logic must be readable and follow standard practices.
+
+## Lincense
+
+MIT Lincense
