@@ -14,7 +14,6 @@ def is_balanced(expression):
     return len(stack) == 0
 
 # Test examples
-# Exemplos de teste
 print(is_balanced("(()())"))    # True
 print(is_balanced("((()))"))    # True
 print(is_balanced("(()"))       # False
